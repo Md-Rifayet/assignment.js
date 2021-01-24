@@ -12,7 +12,7 @@ function kilometerToMeter(convertMeter){
 //kilometerToMeter end
 
 
-//budgetCalculator start from here
+//budgetCalculator start 
 function budgetCalculator(clock,phone,laptop){
     var clockPrice = 150;
     var phonePrice = 200;
@@ -43,10 +43,10 @@ function budgetCalculator(clock,phone,laptop){
 //budgetCalculator end
 
 
-//hotelCost start from here
+//hotelCost start 
 function hotelCost(day){
     var totalCost = 1;
-    if(day < 0){    //condition for error message
+    if(day < 0){   
         return "Your Day's Number is Negative. Please input a positive value!";
     }
     else if(day == 0){
@@ -75,7 +75,7 @@ function hotelCost(day){
 //hotelCost end
 
 
-//megaFriend Start from here
+//megaFriend Start 
 function megaFriend(arr){
     var longName = arr[0];
     if(arr == "" ){   //condition for blank name
@@ -94,4 +94,4 @@ function megaFriend(arr){
         return longName;
     }
 }
-//megaFriend finish
+//megaFriend end
